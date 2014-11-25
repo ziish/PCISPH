@@ -11,6 +11,7 @@ The two main papers implemented are:
 
 All the code was created for an university project during one semester and comes as it is. It is published because we
 found it quite hard to get information about the used parameters and implementation details of other similar
-projects. Don't expect too much though - There was a deadline - You know what that means ;)
+projects. The code was only tested on windows (and actually comes with as visual studio solution) but my expectation would be that it should not be that hard to run it on *nix systems. Before you can execute the simulation you have to run the "exec\_clogs\_tune.bat" file which does some performance tuning of the [clogs library](http://sourceforge.net/p/clogs) which is used by the project.
+Don't expect too much though - There was a deadline - You know what that means ;)
 
 The code does not come with any restrictions but it would be interesting to know if someone found it helpful or is using it to actually do something meaningful.
