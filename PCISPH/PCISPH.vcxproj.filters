@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\vis\fluid_rendering.cpp" />
+    <ClCompile Include="src\sim\Fluid.cpp" />
+    <ClCompile Include="src\utils\file_io.cpp" />
+    <ClCompile Include="src\vis\shader_cache.cpp" />
+    <ClCompile Include="src\scenes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vis\fluid_rendering.h" />
+    <ClInclude Include="src\sim\Fluid.h" />
+    <ClInclude Include="src\utils\file_io.h" />
+    <ClInclude Include="src\vis\shader_cache.h" />
+    <ClInclude Include="src\gl_libs.h" />
+    <ClInclude Include="src\utils\Cache.h" />
+    <ClInclude Include="src\vis\Fluid_Buffers.h" />
+    <ClInclude Include="data\kernels\Simulation_Params.h" />
+    <ClInclude Include="src\utils\constants.h" />
+    <ClInclude Include="src\utils\stb_image_write.h" />
+    <ClInclude Include="src\scenes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\shaders\simple_particle.frag" />
+    <None Include="data\shaders\simple_particle.vert" />
+    <None Include="data\kernels\pcisph.cl" />
+    <None Include="data\kernels\grid_utils.cl" />
+    <None Include="data\kernels\sort_utils.cl" />
+    <None Include="data\shaders\boundary_cube.frag" />
+    <None Include="data\shaders\boundary_cube.vert" />
+  </ItemGroup>
+</Project>

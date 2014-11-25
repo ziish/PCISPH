@@ -1,0 +1,5 @@
+*.sdf
+PCISPH/x64/*
+*.opensdf
+*.log
+test_radix/x64/*
